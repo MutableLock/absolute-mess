@@ -1,0 +1,12 @@
+[package]
+name = "absolute-mess"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+tfserver=["dep:the-fourth-server"]
+
+[dependencies]
+rand = "0.9"
+ring = "0.17"
+the-fourth-server = {git="https://github.com/MutableLock/the-fourth-server", optional = true}
