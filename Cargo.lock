@@ -9,6 +9,8 @@ dependencies = [
  "rand",
  "ring",
  "the-fourth-server",
+ "tokio",
+ "tokio-util",
 ]
 
 [[package]]

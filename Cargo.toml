@@ -9,4 +9,6 @@ tfserver=["dep:the-fourth-server"]
 [dependencies]
 rand = "0.9"
 ring = "0.17"
+tokio = { version = "1", features = ["full"] }
+tokio-util = {version = "0.7", features = ["codec"]}
 the-fourth-server = {git="https://github.com/MutableLock/the-fourth-server", optional = true}
